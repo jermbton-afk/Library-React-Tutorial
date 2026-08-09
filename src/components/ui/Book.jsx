@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import Price from "./Price";
@@ -23,7 +22,7 @@ const Book = ({ book }) => {
     };
     return () => {
       mountedRef.current = false;
-    }
+    };
   }, [book.url]);
 
   return (

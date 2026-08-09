@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState } from "react";
+import React from "react";
 import { Link, useParams } from "react-router-dom";
 import Rating from "../components/ui/Rating";
 import Price from "../components/ui/Price";
@@ -14,7 +14,7 @@ const BookInfo = ({ books, addToCart, cart }) => {
     addToCart(book);
   }
 
-  
+
   function bookExistsOnCart() {
     console.log(books)
     return cart.find(book => book.id === +id);

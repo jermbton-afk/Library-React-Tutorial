@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="row row__column">
           <Link to="/">
           <figure className="footer__logo">
-            <img src={LibraryLogo} className="footer__logo--img" />
+            <img src={LibraryLogo} className="footer__logo--img" alt=""/>
           </figure>
           </Link>
           <div className="footer__list">
