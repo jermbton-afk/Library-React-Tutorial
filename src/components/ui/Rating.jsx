@@ -8,6 +8,7 @@ const Rating = ({ rating }) => {
         <FontAwesomeIcon icon="star" key={index} />
       ))}
       {!Number.isInteger(rating) && <FontAwesomeIcon icon="star-half-alt" />}
+    
     </div>
   );
 };
